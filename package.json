@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.9",
+    "tailwindcss": "^3.3.6"
+  },
+  "scripts": {
+    "buildcss": "npx tailwindcss -i ./src/input.css -o ./src/main.css --watch",
+    "prettier": "npx prettier --write **/*.jsp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shnaydehust/SMS.git"
+  },
+  "author": "shnayderhust",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shnaydehust/SMS/issues"
+  },
+  "homepage": "https://github.com/Shnaydehust/SMS#readme",
+  "description": ""
+}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.circular-clip {
+  clip: rect(0, 100px, 200px, 0);
+}
+
+.transform-circle {
+  transform: rotate(190deg);
+}
+
+.transform-text {
+  transform: translate(-50%, -50%);
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.w-90 {
+  width: 90%;
+}
