@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="w-full h-24 flex justify-between items-center">
+    <header className="w-full h-16 flex justify-between items-center">
       <div className="searchbar">
         <div className="w-56 h-10  rounded-2xl border-gray-500 border flex items-center pl-2">
           <img
