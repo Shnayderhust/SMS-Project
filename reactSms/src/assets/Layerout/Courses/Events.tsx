@@ -1,7 +1,7 @@
 export default function NoticeBoard() {
   return (
-    <div className="w-4/12 h-full border-2 border-indigo-400 rounded-lg ml-2 mr-5 ">
-      <div className="flex h-8 bg-gray-300 w-full border-b rounded-t-lg items-center pl-4 border-b-black">
+    <div className="w-4/12 h-full border-2 border-gray-600 rounded-lg ml-2 mr-5 ">
+      <div className="flex h-8 bg-gray-200 w-full border-b rounded-t-lg items-center pl-4 border-b-black">
         <p>Tasks & Events</p>
       </div>
 
