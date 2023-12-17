@@ -1,4 +1,6 @@
-## Designing a comprehensive and engaging Course Page for a Student Management System involves considering various functionalities that can enhance the learning experience. Here are several functions you might want to include:
+# COURSE PAGE DESIGN
+
+ Designing a comprehensive and engaging Course Page for a Student Management System involves considering various functionalities that can enhance the learning experience. Here are several functions you might want to include:
 
 Course Overview:
 
