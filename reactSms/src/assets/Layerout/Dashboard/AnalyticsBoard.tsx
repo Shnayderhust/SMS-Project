@@ -1,6 +1,6 @@
 export default function AnalyticsBoard() {
   return (
-    <div className="w-8/12 h-full mr-2">
+    <div className="w-8/12 h-038 mr-2">
       <div className="flex justify-between mb-10">
         <div className="w-6/12 h-72 mr-4 border-2 border-indigo-400 rounded-lg p-3">
           <div>

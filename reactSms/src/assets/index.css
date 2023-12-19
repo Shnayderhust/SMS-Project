@@ -564,6 +564,10 @@ video {
   top: 50%;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -1080,6 +1084,10 @@ video {
   padding: 1.25rem;
 }
 
+.p-0 {
+  padding: 0px;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1255,6 +1263,10 @@ video {
 
 .h-041 {
   height: 41rem;
+}
+
+.h-038 {
+  height: 38.5rem;
 }
 
 .w-90 {

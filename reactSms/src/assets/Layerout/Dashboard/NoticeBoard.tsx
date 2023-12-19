@@ -1,6 +1,6 @@
 export default function NoticeBoard() {
   return (
-    <div className="w-4/12 h-full border-2 border-indigo-400 rounded-lg ml-2 mr-5 p-2">
+    <div className="w-4/12 h-038 border-2 border-indigo-400 rounded-lg ml-2 mr-5 p-2">
       <div className="flex flex-col justify-between h-12">
         <p>Notice board</p>
         <p className="text-sm text-gray-500">12 November 2023</p>
