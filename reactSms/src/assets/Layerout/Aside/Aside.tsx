@@ -8,8 +8,8 @@ export default function Aside() {
     <aside className="h-screen w-1/5 border-r-2 border-gray-400">
       <Logo />
       <Nav />
-      <Box />
       <AsideFooter />
+      <Box />
     </aside>
   );
 }

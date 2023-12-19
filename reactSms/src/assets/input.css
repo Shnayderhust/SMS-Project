@@ -23,6 +23,16 @@
 .h-90 {
   height: 90%;
 }
+.h-55 {
+  height: 52.5%;
+}
+
+.h-01 {
+  height: 10%;
+}
+.h-041 {
+  height: 41rem;
+}
 
 .w-90 {
   width: 98%;
