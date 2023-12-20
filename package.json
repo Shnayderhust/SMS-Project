@@ -1,21 +1,31 @@
 {
-  "devDependencies": {
-    "prettier-plugin-tailwindcss": "^0.5.9",
+  "name": "reactsms",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --force --port 4000",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "buildtailwind": "npx tailwindcss -i ./src/assets/input.css -o ./src/assets/index.css --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.0",
     "tailwindcss": "^3.3.6"
   },
-  "scripts": {
-    "buildcss": "npx tailwindcss -i ./src/input.css -o ./src/main.css --watch",
-    "prettier": "npx prettier --write **/*.jsp"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shnaydehust/SMS.git"
-  },
-  "author": "shnayderhust",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Shnaydehust/SMS/issues"
-  },
-  "homepage": "https://github.com/Shnaydehust/SMS#readme",
-  "description": ""
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
 }
