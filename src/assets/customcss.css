@@ -1,18 +1,27 @@
+:root {
+  --APT: "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";
+}
+
 .outerdiv {
-  box-shadow:
-    6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
     -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 
 .innerdiv {
-  box-shadow:
-    inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
     inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
-    0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1), 0.5px 0.5px 0px #00000026,
     0px 12px 10px -10px rgba(0, 0, 0, 0.05);
 }
 
 .courseMainbranch {
   height: 20rem;
+}
+
+.customer_color {
+  --colorOne: #0a2325;
+  --colorTwo: #081a1d;
+  --colorThree: #ac1112;
+  --colorFour: #eb421c;
+  --colorFive: #396567;
 }
