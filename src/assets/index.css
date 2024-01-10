@@ -564,10 +564,6 @@ video {
   top: 50%;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -1084,8 +1080,12 @@ video {
   padding: 1.25rem;
 }
 
-.p-0 {
-  padding: 0px;
+.p-8 {
+  padding: 2rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-4 {
@@ -1140,6 +1140,10 @@ video {
 
 .pt-1 {
   padding-top: 0.25rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
 .text-2xl {
