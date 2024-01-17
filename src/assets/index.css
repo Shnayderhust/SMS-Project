@@ -1080,14 +1080,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1108,6 +1100,10 @@ video {
 
 .pl-1 {
   padding-left: 0.25rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
 .pl-2 {
@@ -1140,10 +1136,6 @@ video {
 
 .pt-1 {
   padding-top: 0.25rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
 }
 
 .text-2xl {

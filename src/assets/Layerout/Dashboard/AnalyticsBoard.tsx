@@ -97,12 +97,51 @@ export default function AnalyticsBoard() {
             </div>
           </div>
         </div>
-        <div className="w-6/12 h-72 mr-4 border-2 border-indigo-400 rounded-lg p-3">
+        <div className="w-6/12 h-72 mr-4 border-2 border-indigo-400 rounded-lg p-3 overflow-scroll">
           <div>
             <p className="font-medium">Pending Assignment</p>
             <p className="font-thin">This Semister</p>
           </div>
 
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
           <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
             <div>
               <p className="text-sm text-purple-400 font-bold">
