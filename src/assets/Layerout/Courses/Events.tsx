@@ -1,6 +1,6 @@
 export default function NoticeBoard() {
   return (
-    <div className="w-4/12 h-041 border-2 border-gray-600 rounded-lg ml-2 ">
+    <div className="w-4/12 h-100 border-2 border-gray-600 rounded-lg ml-2 ">
       <div className="flex h-8 bg-gray-200 w-full border-b rounded-t-lg items-center pl-4 border-b-black">
         <p>Events</p>
       </div>

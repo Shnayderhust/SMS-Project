@@ -1,12 +1,12 @@
 import CourseMain from "./CourseMain/CourseMain";
 import Events from "./Events";
-import Header from "./Header";
+// import Header from "./Header";
 
 export default function Courses() {
   return (
-    <main className="w-4/5 h-full p-2 py-0 overflow-y-scroll">
-      <Header />
-      <div className="mainContent h-auto w-full flex">
+    <main className="w-4/5 h-screen p-2 py-0 overflow-y-scroll">
+      {/* <Header /> */}
+      <div className="mainContent h-full w-full flex p-2">
         <CourseMain />
         <Events />
       </div>

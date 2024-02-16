@@ -1,6 +1,6 @@
 export default function CourseMain() {
   return (
-    <div className="h-auto w-8/12 flex flex-col justify-between">
+    <div className="h-100 w-8/12 flex flex-col justify-around flex-grow">
       <div className="courseMainbranch w-full h-60 flex">
         <div className="analytics w-1/2 h-full border border-gray-400 mr-1 rounded-xl">
           <div className="h-16 rounded-t-xl flex items-center justify-between p-5 border-b border-gray-400">
