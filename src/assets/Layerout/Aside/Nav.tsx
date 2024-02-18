@@ -14,6 +14,11 @@ export default function Nav() {
         />
         <p className="pl-3 text-xl">Dashboard</p>
       </Link>
+
+
+
+
+      
       <Link
         to="/courses"
         className="flex items-center ml-8 h-14 w-52 hover:bg-indigo-50 hover:border-2 hover:border-violet-300 hover:rounded-2xl pl-4"

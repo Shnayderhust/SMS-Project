@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function CourseMain() {
   return (
     <div className="h-100 w-8/12 flex flex-col justify-around flex-grow">
@@ -12,9 +14,11 @@ export default function CourseMain() {
               />
               <h1 className="text-xl">Analytics</h1>
             </div>
-            <button className="w-20 h-8 rounded-lg bg-white border border-gray-400">
+            <Link 
+              to="analytics" 
+              className="w-20 h-8 rounded-lg bg-white border border-gray-400 flex justify-center items-center">
               See All
-            </button>
+            </Link>
           </div>
           <div className="h-2/5 bg-green-300"></div>
           <div className="h-2/5 bg-purple-300 rounded-b-xl pb-5"></div>
