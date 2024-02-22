@@ -8,7 +8,8 @@
       {
         "listitem": "off"
       }
-    ]
+    ],
+    "typescript-config/is-valid": "off"
   },
   "browserslist": [
     "defaults",
