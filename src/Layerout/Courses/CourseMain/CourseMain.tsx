@@ -15,7 +15,7 @@ export default function CourseMain() {
               <h1 className="text-xl">Analytics</h1>
             </div>
             <Link 
-              to="analytics" 
+              to="/Analytic" 
               className="w-20 h-8 rounded-lg bg-white border border-gray-400 flex justify-center items-center">
               See All
             </Link>

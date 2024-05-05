@@ -1,6 +1,6 @@
 export default function NoticeBoard() {
   return (
-    <div className="w-4/12 h-100 border-2 border-gray-600 rounded-lg ml-2 ">
+    <div className="w-4/12 h-full border-2 border-gray-600 rounded-lg ml-2 ">
       <div className="flex h-8 bg-gray-200 w-full border-b rounded-t-lg items-center pl-4 border-b-black">
         <p>Events</p>
       </div>
@@ -33,7 +33,7 @@ export default function NoticeBoard() {
         </div>
       </div>
 
-      <div className="h-55 -500 bg-white p-2 pb-0 pt-0">
+      <div className="event_h bg-white p-2 pb-0 pt-0">
         <div className="news-board flex flex-col h-full mb-8 mt-1 overflow-scroll bg-white">
           <div className="single-event h-14 w-full flex mb-4 border-b border-b-black">
             <div className="w-5/6  h-full">

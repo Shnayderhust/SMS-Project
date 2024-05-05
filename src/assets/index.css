@@ -664,10 +664,6 @@ video {
   height: 75%;
 }
 
-.h-3\/5 {
-  height: 60%;
-}
-
 .h-32 {
   height: 8rem;
 }
@@ -826,6 +822,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
 }
 
 .items-end {
@@ -1103,6 +1103,10 @@ video {
   padding-bottom: 0px;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -1145,6 +1149,10 @@ video {
 
 .pt-1 {
   padding-top: 0.25rem;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-2xl {
@@ -1288,6 +1296,14 @@ video {
 
 .main_h_in{
   height: calc(100% - 10rem);
+}
+
+.event_h{
+  height: calc(100% - 19.5rem);
+}
+
+.dashboard_h{
+  height: calc(100% - 2rem);
 }
 
 .hover\:rounded-2xl:hover {

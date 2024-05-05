@@ -2,6 +2,6 @@
 
 export default function AnalyticsMain() {
   return (
-    <div className="bg-blue-500">AnalyticsMain</div>
+    <div className="bg-blue-500 h-full w-full flex content-center justify-center">AnalyticsMain</div>
   )
 }

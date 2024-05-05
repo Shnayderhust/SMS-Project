@@ -55,3 +55,11 @@
   height: calc(100% - 10rem);
 }
 
+.event_h{
+  height: calc(100% - 19.5rem);
+}
+
+.dashboard_h{
+  height: calc(100% - 2rem);
+}
+
