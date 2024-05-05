@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 export default function CourseMain() {
   return (
-    <div className="h-100 w-8/12 flex flex-col justify-around flex-grow">
-      <div className="courseMainbranch w-full h-60 flex">
-        <div className="analytics w-1/2 h-full border border-gray-400 mr-1 rounded-xl">
+    <div className="w-8/12 grid grid-rows-2 grid-cols-2 gap-2 justify-around flex-grow">
+      {/* <div className="courseMainbranch w-full h-60 flex"> */}
+        <div className="analytics w-full h-full border border-gray-400 mr-1 rounded-xl">
           <div className="h-16 rounded-t-xl flex items-center justify-between p-5 border-b border-gray-400">
             <div className="flex items-center">
               <img
@@ -20,11 +20,13 @@ export default function CourseMain() {
               See All
             </Link>
           </div>
-          <div className="h-2/5 bg-green-300"></div>
-          <div className="h-2/5 bg-purple-300 rounded-b-xl pb-5"></div>
+          <div className="main_h_inner">
+            <div className="h-1/2 bg-green-300"></div>
+            <div className="h-1/2 bg-purple-300 rounded-b-xl pb-5"></div>
+          </div>
         </div>
 
-        <div className="myCourses w-1/2 h-full border border-gray-400 mr-1 rounded-xl">
+        <div className="myCourses w-full h-full border border-gray-400 mr-1 rounded-xl">
           <div className="h-16 rounded-t-xl flex items-center justify-between p-5 border-b border-gray-400">
             <div className="flex items-center">
               <img
@@ -38,12 +40,12 @@ export default function CourseMain() {
               See All
             </button>
           </div>
-          <div className="h-4/5 bg-blue-700"></div>
+          <div className="main_h_inner bg-blue-700 rounded-b-xl"></div>
         </div>
-      </div>
+      {/* </div> */}
 
-      <div className="courseMainbranch w-full h-96 flex">
-        <div className="Accomplishments w-1/2 h-full border border-gray-400 mr-1 rounded-xl">
+      {/* <div className="courseMainbranch w-full h-96 flex"> */}
+        <div className="Accomplishments w-full h-full border border-gray-400 mr-1 rounded-xl">
           <div className="h-16 rounded-t-xl flex items-center justify-between p-5 border-b border-gray-400">
             <div className="flex items-center">
               <img
@@ -57,10 +59,11 @@ export default function CourseMain() {
               See All
             </button>
           </div>
-          <div className="h-1/5 bg-blue-700"></div>
-          <div className="h-3/5 bg-violet-500 rounded-b-xl pb-5"></div>
+          <div className="h-24 bg-blue-700"></div>
+          <div className="main_h_in bg-violet-500 rounded-b-xl pb-5"></div>
         </div>
-        <div className="Tasks w-1/2 h-full border border-gray-400 mr-1 rounded-xl">
+
+        <div className="Tasks w-full h-full border border-gray-400 mr-1 rounded-xl">
           <div className="h-16 rounded-t-xl flex items-center justify-between p-5 border-b border-gray-400">
             <div className="flex items-center">
               <img
@@ -74,9 +77,9 @@ export default function CourseMain() {
               See All
             </button>
           </div>
-          <div className="h-4/5 bg-yellow-100"></div>
+          <div className="main_h_inner rounded-b-xl bg-yellow-100"></div>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 }

@@ -42,3 +42,16 @@
 .w-90 {
   width: 98%;
 }
+
+.main_h{
+  height: calc(100vh - 5rem);
+}
+
+.main_h_inner{
+  height: calc(100% - 4rem);
+}
+
+.main_h_in{
+  height: calc(100% - 10rem);
+}
+
