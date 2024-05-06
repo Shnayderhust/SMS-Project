@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="w-full h-24 flex justify-between items-center">
+    <header className="w-full h-12 flex justify-between items-center">
       <div>
         <p className="text-lg font-semibold">Welcome, Shnayderhust</p>
       </div>

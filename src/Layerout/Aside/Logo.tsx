@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import myLogo from "../../assets/svg/uni-svgrepo-com.svg";
 
 export default function Logo() {
   return (
     <div className="logo flex items-center pl-5 h-20">
       <img
-        src="./src/assets/svg/uni-svgrepo-com.svg"
+        src={myLogo}
         alt="logo"
         className="w-10 h-10"
       />

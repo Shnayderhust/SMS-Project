@@ -4,11 +4,9 @@ import Timetable from "./Timetable";
 
 export default function Main() {
   return (
-    <main className="w-4/5 h-screen overflow-y-hidden p-2 ">
-      <div className="h-64 mb-4">
-        <Header />
-        <Timetable />
-      </div>
+    <main className="w-4/5 h-screen overflow-y-hidden px-2 py-1 ">
+      <Header />
+      <Timetable />
       <Analytics />
     </main>
   );

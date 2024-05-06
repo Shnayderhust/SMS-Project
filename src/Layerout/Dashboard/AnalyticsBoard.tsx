@@ -1,8 +1,9 @@
 export default function AnalyticsBoard() {
   return (
-    <div className="w-8/12 h-038 mr-2">
-      <div className="flex justify-between mb-10">
-        <div className="w-6/12 h-72 mr-4 border-2 border-indigo-400 rounded-lg p-3">
+    <div className="w-8/12 h-full mb-2 mr-2 grid grid-cols-2 grid-rows-2 gap-2">
+
+      {/* <div className="flex justify-between mb-10"> */}
+        <div className="w-full h-full mr-4 border-2 border-indigo-400 rounded-lg p-3">
           <div>
             <p className="font-medium">Atendance</p>
             <p className="font-thin">This Semister</p>
@@ -33,7 +34,8 @@ export default function AnalyticsBoard() {
             </div>
           </div>
         </div>
-        <div className="w-6/12 h-72 mr-4 border-2 border-indigo-400 rounded-lg p-3">
+
+        <div className="w-full h-full mr-4 border-2 border-indigo-400 rounded-lg p-3">
           <div>
             <p className="font-medium">Atendance</p>
             <p className="font-thin">This Semister</p>
@@ -64,9 +66,10 @@ export default function AnalyticsBoard() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="flex justify-between mb-10">
-        <div className="w-6/12 h-72 mr-4 border-2 border-indigo-400 rounded-lg p-3">
+      {/* </div> */}
+
+      {/* <div className="flex justify-between mb-10"> */}
+        <div className="w-full h-full mr-4 border-2 border-indigo-400 rounded-lg p-3">
           <div>
             <p className="font-medium">Atendance</p>
             <p className="font-thin">This Semister</p>
@@ -97,12 +100,16 @@ export default function AnalyticsBoard() {
             </div>
           </div>
         </div>
-        <div className="w-6/12 h-72 mr-4 border-2 border-indigo-400 rounded-lg p-3 overflow-scroll">
-          <div>
+
+        <div className="w-full h-full mr-4 border-2 border-indigo-400 rounded-lg px-3 py-1 overflow-scroll">
+          <div className="h-12">
             <p className="font-medium">Pending Assignment</p>
             <p className="font-thin">This Semister</p>
           </div>
 
+        <div className="h-90 -500 bg-white">
+          <div className="news-board flex flex-col h-full mb-10 mt-1 overflow-scroll bg-white">
+
           <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
             <div>
               <p className="text-sm text-purple-400 font-bold">
@@ -180,9 +187,15 @@ export default function AnalyticsBoard() {
             <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
               Due Tommorow
             </p>
+          </div>
+
           </div>
         </div>
-      </div>
+        </div>
+
+      {/* </div> */}
+
     </div>
   );
 }
+
