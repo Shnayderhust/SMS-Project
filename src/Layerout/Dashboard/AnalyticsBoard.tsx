@@ -107,9 +107,230 @@ export default function AnalyticsBoard() {
             <p className="font-thin">This Semister</p>
           </div>
 
-        <div className="h-90 -500 bg-white">
+        <div className="notice_h bg-white">
           <div className="news-board flex flex-col h-full mb-10 mt-1 overflow-scroll bg-white">
 
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
+          <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
+            <div>
+              <p className="text-sm text-purple-400 font-bold">
+                CP 212 Assignment No.02
+              </p>
+              <p className="text-xs text-gray-500 font-medium">
+                System Design Complexity
+              </p>
+            </div>
+            <p className="Assignment-DueDate text-yellow-400 text-sm font-medium">
+              Due Tommorow
+            </p>
+          </div>
           <div className="assignment w-full h-16 bg-indigo-50 rounded-xl border-2 border-violet-300 flex p-2 justify-between mb-2">
             <div>
               <p className="text-sm text-purple-400 font-bold">

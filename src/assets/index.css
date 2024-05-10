@@ -1107,6 +1107,11 @@ video {
   padding-right: 0.5rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1120,11 +1125,6 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .pb-0 {
@@ -1303,7 +1303,7 @@ video {
 }
 
 .w-90 {
-  width: 98%;
+  width: 100%;
 }
 
 .main_h{
@@ -1324,6 +1324,10 @@ video {
 
 .dashboard_h{
   height: calc(100vh - 7.8rem);
+}
+
+.notice_h{
+  height: calc(100% - 3rem);
 }
 
 .hover\:rounded-2xl:hover {

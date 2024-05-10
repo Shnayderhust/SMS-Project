@@ -1,9 +1,9 @@
 export default function Timetable() {
   return (
-    <div className="timetable h-16 w-full">
+    <div className="timetable h-14 w-full">
       {/* <p>Today's Timetable</p> */}
       <div className="w-full h-12">
-        <div className="w-90 h-20">
+        <div className="w-full h-12">
           <div className="flex h-12 w-full overflow-y-hidden overflow-x-scroll items-end bg-red justify-between">
 
             <div className="h-10 w-auto rounded-md border-2 border-violet-300 p-1 flex items-center justify-start gap-2 mr-5 flex-shrink-0">

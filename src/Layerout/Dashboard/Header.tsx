@@ -4,7 +4,7 @@ export default function Header() {
       <div>
         <p className="text-lg font-semibold">Welcome, Shnayderhust</p>
       </div>
-      <div className="flex w-72 justify-normal items-center">
+      <div className="flex w-auto justify-normal items-center">
         <div className="flex">
           <img
             src="./src/assets/svg/search-alt-svgrepo-com.svg"
@@ -17,7 +17,7 @@ export default function Header() {
             className="w-8 h-8"
           />
         </div>
-        <div className="profile flex items-center">
+        <div className="profile flex items-center ">
           <img
             src="./src/assets/svg/profile-circle-svgrepo-com.svg"
             alt="profile"
