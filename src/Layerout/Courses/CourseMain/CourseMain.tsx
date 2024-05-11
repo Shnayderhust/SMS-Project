@@ -15,7 +15,7 @@ export default function CourseMain() {
               <h1 className="text-xl">Analytics</h1>
             </div>
             <Link 
-              to="/Analytic" 
+              to="/analytic" 
               className="w-20 h-8 rounded-lg bg-white border border-gray-400 flex justify-center items-center">
               See All
             </Link>
@@ -36,9 +36,11 @@ export default function CourseMain() {
               />
               <h1 className="text-xl">My Courses</h1>
             </div>
-            <button className="w-20 h-8 rounded-lg bg-white border border-gray-400">
+            <Link
+              to="/myCourses"
+              className="w-20 h-8 rounded-lg bg-white border border-gray-400 flex justify-center items-center">
               See All
-            </button>
+            </Link>
           </div>
           <div className="main_h_inner bg-blue-700 rounded-b-xl"></div>
         </div>
