@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.circular-clip {
+  clip: rect(0, 100px, 200px, 0);
+}
+
+.transform-circle {
+  transform: rotate(190deg);
+}
+
+.transform-text {
+  transform: translate(-50%, -50%);
+}
+
+.h-90 {
+  height: 90%;
+}
+
+
+.h-01 {
+  height: 10%;
+}
+
+.h-041 {
+  height: 41rem;
+}
+
+.h-038 {
+  height: 38.5rem;
+}
+
+.w-90 {
+  width: 100%;
+}
+
+.main_h{
+  height: calc(100vh - 5rem);
+}
+
+.main_h_inner{
+  height: calc(100% - 4rem);
+}
+
+.main_h_in{
+  height: calc(100% - 10rem);
+}
+
+.event_h{
+  height: calc(100% - 19.5rem);
+}
+
+.dashboard_h{
+  height: calc(100vh - 7.8rem);
+}
+
+.notice_h{
+  height: calc(100% - 3rem);
+}
+
