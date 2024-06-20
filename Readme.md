@@ -1,10 +1,9 @@
 ---
 Start Date: Thursday 20th June 2024
 End Date: 
-Tags: #project
 ---
 
-# Project Title: [[InsightGem]]
+# Project Title: InsightGem
 
 
 ## Overview
